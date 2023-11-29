@@ -1,10 +1,10 @@
-var year = 2016;
-if (year % 4 == 0) {
-    console.log("leap year")
-}
-else {
-    console.log("not leap year")
-}
+// var year = 2016;
+// if (year % 4 == 0) {
+//     console.log("leap year")
+// }
+// else {
+//     console.log("not leap year")
+// }
 
 var number = 6;
 
@@ -34,35 +34,61 @@ if (number == 12) {
     console.log("jan")
 }
 
-var month_unit = 100;
+// var month_unit = 100;
 
-if (month_unit > 0 && month_unit < 50) {
-    total_price = month_unite = 0.50
-} else if (month_unit > 51 && month_unit < 150) {
-    total_price = month_unite = 0.75
-} else if (month_unit > 151 && month_unit < 250) {
-    total_price = month_unite = 1.20
-} else if (month_unit > 250) {
-    total_price = month_unite = 1.50
-}
+// if (month_unit > 0 && month_unit < 50) {
+//     total_price = month_unite = 0.50
+// } else if (month_unit > 51 && month_unit < 150) {
+//     total_price = month_unite = 0.75
+// } else if (month_unit > 151 && month_unit < 250) {
+//     total_price = month_unite = 1.20
+// } else if (month_unit > 250) {
+//     total_price = month_unite = 1.50
+// }
 
-console.log(total_price);
+// console.log(total_price);
 
-for (i = 10; i >= 1; i--) {
-    console.log(i)
-}
+// for (i = 10; i >= 1; i--) {
+//     console.log(i)
+// }
 
-var a = 2
-var b = 3
+// var a = 2
+// var b = 3
 
-for (i = 0; i <= 2; i++) {
-    console.log(i)
-}
-a = [1, 2, -6, 3, -1, -5];
+// for (i = 0; i <= 2; i++) {
+//     console.log(i)
+// }
+// a = [1, 2, -6, 3, -1, -5];
 
-for (i = 0; i <= 5; i++) {
-    if (a[i] < 0) {
-        console.log(a[i])
-    }
-}
+// for (i = 0; i <= 5; i++) {
+//     if (a[i] < 0) {
+//         console.log(a[i])
+//     }
+// }
 
+// if (condition) {
+    
+// } else {
+    
+// }
+
+// array.forEach(element => {
+    
+// });
+
+// while (condition) {
+    
+// }
+
+// do {
+    
+// } while (condition);
+
+// switch (key) {
+//     case value:
+        
+//         break;
+
+//     default:
+//         break;
+// }

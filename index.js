@@ -21,10 +21,29 @@
 // console.log(ab)
 
 
-for(i=1;i<=4;i++){
-    for(j=1;j<=4;j++){
-        if(i!=j){
-            console.log(i,j)
+for (i = 1; i <= 4; i++) {
+    for (j = 1; j <= 4; j++) {
+        if (i != j) {
+            console.log(i, j)
         }
     }
 }
+
+const [state, setstate] = useState(initialState)
+
+useEffect(() => {
+
+}, [input])
+
+
+
+useCallback(
+    () => {
+        callback
+    },
+    [input]
+)
+
+const context = useContext(contextValue)
+
+const ref = useRef(initialValue)
